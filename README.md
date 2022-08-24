@@ -1,5 +1,6 @@
 # Hanabi-discard
-WIP Discard Convention
+
+This is an experimental convention, based on a fun premise. Initially an intellectual challenge, it turned out surprisingly efficient, although that was more a side-effect than an intended feature.
 
 The idea of this convention is that players tell other players that they have a playable card by discarding a card in the same slot. Clues are used mostly to save valuable cards (not necessarily critical) from discards. Combined with the good touch principle, as the game progresses a lot of "saved" cards will be known as playable, thus the end-game usually does not require too many discards. 
 
