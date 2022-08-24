@@ -68,10 +68,10 @@ g- cf. special rules "Letting the clue tick" (4f).
 
 a- To indicate that a card is playable, a player MAY either
  * discard their card in the same slot, 
- * clue a valuable card in a player’s hand.
+ * clue a valuable card in a player’s hand, in the same slot. (Interpreted as a "save" from a possible discard.)
 
 b- Players MUST NOT
- * "fill-in" a card to inform their owner that it is playable if this is not a valid play-hint, or otherwise a valid move. 
+ * "fill-in" a card to inform their owner that it is playable if this is not a valid play-hint, or otherwise a valid move. (Exception can be made at the end, when all playable cards are visible and the players know it cannot be a play hint - we can rely on the fact that "filled-in" playable cards must be played before play hints.)
  * clue a non-valuable card. When a non-valuable card is clued, another interpretation is needed. See "Trash Clues" for the current suggestion. 
  
 c- When play-hinting a card, players SHOULD, in order of preference,
