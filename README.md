@@ -76,8 +76,8 @@ b- Players MUST NOT
  * clue a non-valuable card. When a non-valuable card is clued, another interpretation is needed. See "Trash Clues" for the current suggestion. 
  
 c- When play-hinting a card, players SHOULD, in order of preference,
- * clue a valuable card,
- * if impossible / impractical, discard,
+ * if they do not know whether their card in the same slot is trash or valuable, clue a valuable card,
+ * if impossible / impractical, or if they know that their card in the same slot is not valuable (but NOT if it is known trash), discard,
  * if impossible / dangerous, clue the play-hinted card directly. 
  
 d- When cluing one or more VALUABLE cards in a player’s hand, it means that there is at least one playable card in EVERY slot that was touched by the clue. 
