@@ -22,7 +22,7 @@ Trash discards SHOULD be preferred to trash clues when the game is poor in playa
 a- Alice gives a play-hint in slot x. Bob and Cathy both have a playable card in slot x.
 - At Bob’s turn, Bob does not play his slot x card. 
 - Cathy deduces that Bob sees another playable card in slot x. Since no other player except Bob has a playable card in slot x, she knows she is the one with it.
-- She now has a card to play. But instead, she **lets the hint tick**, so that Bob is informed that he, too, has a playable card in slot x.
+- She now has a card to play. But instead, she **lets the hint tick by not playing her slot x card**, so that Bob is informed that he, too, has a playable card in slot x.
 - During the next turn, both Bob and Cathy will play their slot x card.
 
 b- This can be used to inform Alice that she has a playable card in slot x.
