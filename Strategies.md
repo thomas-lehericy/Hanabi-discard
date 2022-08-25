@@ -64,7 +64,8 @@ Ex: Cathy has exactly one non-play-hinted playable card, which is in slot x. Ali
 
 Special trash can be very common, and a lot of strategies could be enabled by them. 
 * If Cathy pretends not to know about the special trash, then only Cathy will interpret a discard of this trash card as a play hint. Bob now has a play clue that ONLY affects Cathy, and may be for example trigger finesses much more conveniently. 
-* Players could agree that special trash does not expire when it is revealed as "known trash" by a trash clue. 
+* Players could agree (or not) that special trash does not expire when it is revealed as "known trash" by a trash clue. 
+* ?? Players should still have a way to safely discard a special trash clue when its utility has expired. ??
 
 
 ## Finesses and bluffs
