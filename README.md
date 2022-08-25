@@ -144,3 +144,4 @@ c- The fixed player MUST erase all affected cards (including the one they are ab
 ?? Allow other fix moves ??
 ?? It is not a good idea to allow "stomping" on a clue to be a fix clue, since it could be interpreted as a finesse. ??
 
+d- Player should trust their partners and NOT rush to give a fix clue - instead, they should consider whether they missed a previous play hint targetted at themselves. Only when there is no other reasonable possibility, and they are certain that a mistake is indeed about to be committed, should they "fix" the clue. 
