@@ -86,9 +86,9 @@ f[special]- If Alice played or discarded, and a playable card arrived in slot x,
 g- If several cards of the same player are touched, they MUST be played from newest to oldest. 
 
 
-# 5. Trash clue
+# 5. Trash clue, trash discard
 
-Sometimes, a player just has nothing relevant to do. In most conventions, they would discard their chop card. This is not possible here - a discard would be interpreted as a play hint. Instead, they have the Trash clue. 
+Sometimes, a player just has nothing relevant to do. In most conventions, they would discard their chop card. This is not possible here - a discard would be interpreted as a play hint. Instead, they have the trash clue and the trash discard. 
 
 a- A trash clue is a clue that everyone agrees is not a play hint. Its sole purpose is to express that the clue giver has nothing better to do. 
 
@@ -96,7 +96,7 @@ b- A 1 clue is ALWAYS a trash clue, by convention. (It is thus a good idea to ke
 
 c- A clue is a trash clue if, after receiving the clue, the receiver KNOWS that at least one of the affected cards is trash. The receiver MUST then mark all affected cards as known trash. If the receiver does not know that at least one of the affected cards is trash, it is a normal play clue. 
 
-d- Known trash MAY be discarded without it giving any information whatsoever. It MUST NOT be interpreted as a play hint. (Let us call it a "Trash discard".)
+d- Known trash MAY be discarded without it giving any information whatsoever. It MUST NOT be interpreted as a play hint. This is a "Trash discard".
 
 # 6. Fix clue
 
