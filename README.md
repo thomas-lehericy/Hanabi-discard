@@ -47,6 +47,8 @@ d-
 
 # 3. Play order
 
+To make the game predictable, players must know in which order to resolve the play clue that they receive. This allows "stacking" play clues over a single player, or even between players, in a clean and error-free way. We decided on a simple rule: the card that was marked as playable earliest should be executed first. Of course, exceptions are permitted in exceptional circumstances, but the responsibility of unexpected consequences lies on the player who decides to disregard the play order. 
+
 a- Players will inform each other of which cards are playable through play hints (see Section "Play hints"). Sometimes, cards will receive enough clues to be identifiable, in which case the owner of the card should know to play it.
 
 b- When a player knows that at least a card in their hand is playable, they MUST play.
@@ -68,6 +70,8 @@ g- cf. special rules "Letting the clue tick" (4f).
 
 
 # 4. Play hints
+
+A play hint is a signal to the other players that a card is playable. Most of the time, the card that is signalled as playable isn’t touched by any clue.
 
 a- To indicate that a card is playable, a player MAY either
  * discard their card in the same slot, 
@@ -104,6 +108,8 @@ i- If several cards of the same player are touched, they MUST be played from new
 
 # 5. Trash clue
 
+Sometimes, a player just has nothing relevant to do. In most conventions, they would discard their chop card. This is not possible here - a discard would be interpreted as a play hint. Instead, they have the Trash clue. 
+
 a- A trash clue is a clue that everyone agrees is not a play hint. Its sole purpose is to express that the clue giver has nothing better to do. 
 
 b- A 1 clue is ALWAYS a trash clue, by convention. (It is thus a good idea to keep at least one 1 among all players’ hands.)
@@ -120,11 +126,18 @@ d[??]- Known trash MAY be discarded without it giving any information whatsoever
 
 # 6. Fix clue
 
-a- A fix clue is a clue that affects a card that is about to be played, and reveals that it is not playable.
+When a mistake is about to be made, we allow a clue that "fixes" it - and only does that. 
 
-b- Fix clues MUST NOT be taken as a play clue, but only as preventing a misplay. They MAY touch other cards, in which case they SHOULD touch only valuable cards, or fill in trash cards, or otherwise give useful information to the receiving player.
+a- A fix clue is a clue that affects a card that is about to be played. 
+ - It may reveal to the card owner that the card is unplayable, but this is not necessary.
+ - Indeed, the only other explanation is that there are two playable cards in this slot. If that is the case, then the card owner will see at least one playable card in this slot. If there is none, they will conclude without a doubt that it is a fix clue. If there is one, the situation is ambiguous; the card owner should err on the side of caution and delay playing their card. 
+ - In the latter case, and if it is not immediately clear to its owner that the "fixed" card is unplayable, the other players MUST recognize the reason for the delay, and note that they have a playable card in the slot that was about to be played. If the clue was indeed a fix, then they MUST NOT play before the "fixed" player’s turn. If the clue was not a fix but a legitimate double play hint, at least one of them MUST play before the "fixed" player’s turn (No "letting the hint tick", see Strategies) to let their play queue continue as soon as possible. 
 
-c- The fixed player MUST erase the card they are about to play from the play queue, and proceed with the next item. 
+b- Fix clues MUST NOT be taken as a play clue, but only as preventing a misplay. 
+ * They MAY touch other cards, in which case they SHOULD give useful information to the receiving player (like filling in trash cards, or cluing valuable cards). 
+ * A clue that reveals trash cards MUST be considered as a fix clue before being considered a trash clue; as such, it is allowed to touch a mix of trash and valuable cards. 
+
+c- The fixed player MUST erase all affected cards (including the one they are about to play) from the play queue, and proceed with the next item. 
 
  * Ex: Fresh game. Alice clues three red to Cathy; there is no non-play-hinted playable card in anyone’s hand but Cathy, so Cathy knows the play hints are for her. Cathy would play them from left to right. Immediately after Alice, Bob clues the left-most one as a 5 (possibly touching another 5); it is a fix clue, so no one interprets it as a play hint for them. Cathy would then play the middle red (and place r1), then the right-most red (and play r2), then stop there. 
 
