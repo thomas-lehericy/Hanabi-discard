@@ -53,12 +53,16 @@ a- Giving a play-hint on a card SHOULD be left to the last player (before the ca
 
 ## Special trash
 
+Discussed in more details in the issue "Special trash". 
+
 Ex: Cathy has exactly one non-play-hinted playable card, which is in slot x. Alice gives a trash clue. 
 * Bob then knows for certain he has a trash card in slot x. This card is now a known trash card for everyone but Cathy. Since Cathy does not know that Bob knows it is a trash card, she would interpret a discard of this card as a play clue on her. 
-* A very daring Bob could use this information asymetry to his advantage - since the players other than Cathy will not interpret a discard of this trash card as a play hint, he now has a play clue that ONLY affects Cathy, and may be subsequently used to trigger finesses. 
-* Otherwise, it is often safer to discard the trash card immediately, especially if Cathy might discard the card in her slot x. 
-* This "special trash" becomes a normal known trash once Cathy becomes certain that Bob knows it is trash. 
-* If Bob decides not to discard the card, the other players MAY play-hint Cathy’s slot x (to allow Bob to keep his special trash) or, if they decide that Bob’s daring is too much, they MAY decide to let Bob give the clue anyway. They can also trash-clue Bob’s special trash card. 
+* This trash card is now a "special trash", with target Cathy.
+* As soon as Cathy plays her card, seeing the history of the game, she will be able to deduce that Bob has a special trash with her as target. This way, information symmetry is restored, and the team now has a very special card to play with.
+
+Special trash can be very common, and a lot of strategies could be enabled by them. 
+* If Cathy pretends not to know about the special trash, then only Cathy will interpret a discard of this trash card as a play hint. Bob now has a play clue that ONLY affects Cathy, and may be for example trigger finesses much more conveniently. 
+* Players could agree that special trash does not expire when it is revealed as "known trash" by a trash clue. 
 
 
 ## Finesses and bluffs
