@@ -123,6 +123,8 @@ c- A clue that touches at least one unplayable card is ONLY a trash clue if, aft
 
 d[??]- Known trash MAY be discarded without it giving any information whatsoever. It MUST NOT be interpreted as a play hint. (Let us call it a "Trash discard".)
 
+e- A "1" trash clue may fill in cards and reveal them playable - but it is STILL a trash clue. 
+
 
 # 6. Fix clue
 
