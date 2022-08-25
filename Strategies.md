@@ -102,7 +102,8 @@ Ex: Bob has no playable card in slot x, but he has a card to play. Donald has y2
 Ex (of things going wrong): Bob has a playable card in slot 1, and y1 in slot 2. Cathy has nothing playable. Donald has y2 in slot x.
 - Alice play-hints slot x, thinking that this indicates Bob’s finesse position.
 - But in fact, Bob interprets this as "the card I will play is y1" - which it is not.
-- Bob plays his card as usual. Cathy tries to play her slot x card, and fails. 
+- Bob plays his card as usual. Cathy tries to play her slot x card, and fails. Noting the failure, everyone else marks that they do not have any playable card in slot x, and Bob understands that he missed a finesse (for no fault of his own). 
+- If players agree to not "forget" about the wrong clue, Bob will thus attempt to signal the finesse by playing his finesse card - in this case, his slot 2 card - during his next turn. If this card is not playable, someone must give Bob a fix clue. Bob would thus remove his slot 2 card from his playing queue, emptying it. The finesse is stopped, and the mistake is corrected. 
 
 Ex: g3, p3, y2, b1 and r2 are placed. Alice play-hints slot x. Bob’s card in slot x is clued 5, Cathy’s is trash, and Donald’s card is clued 4. The target of the finesse is either Bob or Donald. 
 - If Bob does nothing, Donald deduces that he has g4. But Bob plays his finesse card, which is r3. Donald then knows that he has neither g4 nor p4. 
