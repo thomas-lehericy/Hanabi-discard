@@ -143,7 +143,7 @@ d- Fix clues MAY be used whenever there is a reasonable suspicion that a player 
 a- If Alice has no play-hinted card and no remaining clue. She thus MUST discard. 
  * If she has a known trash card, she MAY discard it. This will be interpreted as a trash discard, that does not give any information.
  * If she has a known trash card, she MAY discard another, non-known trash card. This will be interpreted as a play hint.
- * If she has NO known trash card, she MUST discard her newest non-clued card (because if it was playable, it would have been finessed).
+ * ?? If she has NO known trash card, she MUST discard her card that is most likely to be trash, or a card decided through a known procedure - other players should have had the opportunity to save said card beforehand. (The players should do their best to avoid this situation.)
 
 b- Players who anticipate this behavior and notice that it will lead to the discard of a CRITICAL card MUST prevent this situation from happening, by trash discards or other means. 
  * ?? In the most extreme case, fix clue ??
