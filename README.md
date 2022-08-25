@@ -135,24 +135,3 @@ d- Fix clues MAY be used whenever there is a reasonable suspicion that a player 
 ?? Allow other fix moves ??
 ?? It is not a good idea to allow "stomping" on a clue to be a fix clue, since it could be interpreted as a finesse. ??
 
-
-# 7. What to do when stuck
-
-# No clue in the bank
-
-a- If Alice has no play-hinted card and no remaining clue. She thus MUST discard. 
- * If she has a known trash card, she MAY discard it. This will be interpreted as a trash discard, that does not give any information.
- * If she has a known trash card, she MAY discard another, non-known trash card. This will be interpreted as a play hint.
- * ?? If she has NO known trash card, she MUST discard her card that is most likely to be trash, or a card decided through a known procedure - other players should have had the opportunity to save said card beforehand. (The players should do their best to avoid this situation.)
-
-b- Players who anticipate this behavior and notice that it will lead to the discard of a CRITICAL card MUST prevent this situation from happening, by trash discards or other means. 
- * ?? In the most extreme case, fix clue ??
-
-
-# There are no playable cards
-
-We do not want to keep giving trash clues: this would exhaust the clue bank without bringing in any new card. 
-
-a- Trash discards SHOULD be preferred to trash clues when the game is poor in playable cards. Most likely, in this situation, Alice has no known trash. 
-
-b- ?? General procedure ??
