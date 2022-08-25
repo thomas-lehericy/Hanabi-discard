@@ -94,7 +94,7 @@ a- A trash clue is a clue that everyone agrees is not a play hint. Its sole purp
 
 b- A 1 clue is ALWAYS a trash clue, by convention. (It is thus a good idea to keep at least one 1 among all players’ hands.)
 
-c- A clue that touches at least one unplayable card is ONLY a trash clue if, after receiving the clue, the receiver KNOWS that at least one of the affected cards is trash. The receiver MUST then mark all affected cards as known trash. If the receiver does not know that at least one of the affected cards is trash, it is a normal play clue. 
+c- A clue is a trash clue if, after receiving the clue, the receiver KNOWS that at least one of the affected cards is trash. The receiver MUST then mark all affected cards as known trash. If the receiver does not know that at least one of the affected cards is trash, it is a normal play clue. 
 
 d- Known trash MAY be discarded without it giving any information whatsoever. It MUST NOT be interpreted as a play hint. (Let us call it a "Trash discard".)
 
