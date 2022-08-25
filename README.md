@@ -192,18 +192,19 @@ a- Simple finesse / bluff:
 - Alice gives a play clue on slot x, where there is at least one valuable but unplayable card. 
 - Bob’s card in slot x is known (by him) unplayable. 
 - No one else has a playable card in slot x. 
-- If Bob does nothing, the last person with a non-known-unplayable card will attempt to play it.
+- If Bob does nothing, the first person with a non-known-unplayable card will attempt to play it.
 - But Alice would not play-hint a truly unplayable card. This means there is a card that must be played that will resolve the situation and make at least one card playable.
-- Bob thus plays the card that is most likely to make one of the slot x cards playable (based on his clues, or if there are no compatible clues, his finesse position.)
+- Bob thus plays the card that is most likely to make one of the slot x cards playable (based on his clues; if there are no compatible clues, Bob plays his finesse position.)
 - This card may or may not actually allow a card to be played. In any case, the other players should take note that a finesse has occured, and as such, that at least one of them has a valuable but not-yet-playable card. 
 - If the newly placed card makes one of their card possibly playable (based on their clues), they MUST attempt to play it. (Finesse are to be considered before Bluffs.) This MAY trigger multiple bluffs (if a card is falsely playable, it means that someone has a playable card in a position to be played before the play-hinted card is played). 
-- Note that, by seeing Bob react to the finesse, the clue-receiver should acknowledge that he received a clue on an UNPLAYABLE card. If, at his turn, his card’s playability has not changed (based on the previous player’s reactions), he should not play it. If nothing tells him that the card is unplayable, he MUST attempt to play it. 
+- Note that, by seeing Bob react to the finesse, the clue-receiver should acknowledge that he received a clue on a, at this time, UNPLAYABLE card. If, at his turn, his card’s playability has not changed (based on the previous player’s reactions), he should not play it. If nothing tells him that the card is unplayable, he MUST attempt to play it. 
 
 Ex: g3, p3, y2, b1 and r2 are placed. Alice play-hints slot x. Bob’s card in slot x is clued 5, Cathy’s is trash, and Donald’s card is clued 4. The target of the finesse is either Bob or Donald. 
 - If Bob does nothing, Donald deduces that he has g4. But Bob plays his finesse card, which is r3. Donald then knows that he has neither g4 nor p4. 
 - Cathy then plays her finesse card, and places y3. Donald deduces that his card is not r3 - otherwise, Cathy wouldn’t have played. 
-- It is now Donald’s turn. He may have b4 (unplayable) or y4 (playable). If he had b4, Cathy would have known that she couldn’t make the card playable, and would thus have fix-clued him. His card is thus y4. Donald plays it. 
+- It is now Donald’s turn. He may have b4 (unplayable) or y4 (playable). If he had b4, Cathy would have known that she couldn’t make the card playable, and would thus have fix-clued him. His card is thus y4. Donald plays it. (In any case, if there is a possibility that the card is playable, Donald MUST play it.) 
 - Note that Bob HAS to play his finesse card, even though he can see that Cathy has the card that is ACTUALLY required for the finesse. Indeed, if Bob did not play, Cathy would NOT know that this was a finesse, and she would instead try to play her slot x card. 
+- If Cathy had played b2 instead, Donald still deduces that his card is y4, and he would see that y4 is not yet playable. He thus does not play it. 
 
 
 b- Simple self-finesse: If all cards in slot x (besides Bob) are trash, then Bob knows that he is the only possible target of the finesse. He must proceed as above. 
