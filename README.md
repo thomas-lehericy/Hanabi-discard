@@ -4,6 +4,8 @@ This is an experimental convention for 3p+, based on a fun premise. Initially an
 
 The idea of this convention is that players tell other players that they have a playable card by discarding a card in the same slot. Clues are used mostly to save valuable cards (not necessarily critical) from being discarded. Combined with the good touch principle, as the game progresses a lot of "saved" cards will be known as playable. 
 
+If you are interested in learning about this convention, the current README will teach you the fundamentals: no strategy, but every concept that you need to start building them. Strategies (elementary and more advanced) are gathered in "Strategies.md". 
+
 
 # 0. Modals
 
