@@ -49,7 +49,7 @@ Ex: Cathy has exactly one non-play-hinted playable card, which is in slot x.
 a- Giving a play-hint on a card SHOULD be left to the last player (before the card holder) that has trash in this slot. 
 
 
-# Advanced strategies
+# Advanced strategies (WIP!)
 
 ## Special trash
 
