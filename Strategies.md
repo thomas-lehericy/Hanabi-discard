@@ -99,6 +99,11 @@ Ex: Bob has no playable card in slot x, but he has a card to play. Donald has y2
 - Donald plays his y2. 
 - In this example, Bob should NOT signal the finesse: indeed, first, he can see Cathy’s y1, and second, his next queued card may be a y1. He should thus play his cards as usual. 
 
+Ex (of things going wrong): Bob has a playable card in slot 1, and y1 in slot 2. Cathy has nothing playable. Donald has y2 in slot x.
+- Alice play-hints slot x, thinking that this indicates Bob’s finesse position.
+- But in fact, Bob interprets this as "the card I will play is y1" - which it is not.
+- Bob plays his card as usual. Cathy tries to play her slot x card, and fails. 
+
 Ex: g3, p3, y2, b1 and r2 are placed. Alice play-hints slot x. Bob’s card in slot x is clued 5, Cathy’s is trash, and Donald’s card is clued 4. The target of the finesse is either Bob or Donald. 
 - If Bob does nothing, Donald deduces that he has g4. But Bob plays his finesse card, which is r3. Donald then knows that he has neither g4 nor p4. 
 - Cathy then plays her finesse card, and places y3. Donald deduces that his card is not r3 - otherwise, Cathy wouldn’t have played. 
