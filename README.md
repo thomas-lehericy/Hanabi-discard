@@ -132,25 +132,28 @@ e- A "1" trash clue may fill in cards and reveal them playable - but it is STILL
 When a mistake is about to be made, we allow a clue that "fixes" it - and only does that. 
 
 a- A fix clue is a clue that affects a card that is about to be played. 
- - It may reveal to the card owner that the card is unplayable, but this is not necessary.
+ - It may reveal to the card owner that the card is unplayable. This is recommended, but not necessary.
  - Indeed, the only other explanation is that there are two playable cards in this slot. If that is the case, then the card owner will see at least one playable card in this slot. If there is none, they will conclude without a doubt that it is a fix clue. If there is one, the situation is ambiguous; the card owner should err on the side of caution and delay playing their card. 
- - In the latter case, and if it is not immediately clear to its owner that the "fixed" card is unplayable, the other players MUST recognize the reason for the delay, and note that they have a playable card in the slot that was about to be played. If the clue was indeed a fix, then they MUST NOT play before the "fixed" player’s turn. If the clue was not a fix but a legitimate double play hint, at least one of them MUST play before the "fixed" player’s turn (No "letting the hint tick", see Strategies) to let their play queue continue as soon as possible. 
+ - In the latter case, and if it is not immediately clear to its owner that the "fixed" card is unplayable, the other players MUST recognize the reason for the delay, and note that they have a playable card in the slot that was about to be played. If the clue was indeed a fix, then they MUST NOT play before the "fixed" player’s turn. If the clue was not a fix but a legitimate double play hint, at least one of them MUST play before the "fixed" player’s turn (bypassing their own queue if needed - no "letting the hint tick", see Strategies) to let the delaying player’s play queue resume as soon as possible. 
 
 b- Fix clues MUST NOT be taken as a play clue, but only as preventing a misplay. 
  * They MAY touch other cards, in which case they SHOULD give useful information to the receiving player (like filling in trash cards, or cluing valuable cards). 
- * A clue that reveals trash cards MUST be considered as a fix clue before being considered a trash clue; as such, it is allowed to touch a mix of trash and valuable cards. 
+ * A possible fix clue that reveals trash cards MUST be considered as a fix clue before being considered a trash clue; as such, it is allowed to touch a mix of trash and valuable cards. 
+ * In this case, a "1" clue will be considered a fix clue before being considered a trash clue. 
 
 c- The fixed player MUST erase all affected cards (including the one they are about to play) from the play queue, and proceed with the next item. 
 
  * Ex: No card is played. Bob knows that his slot 1 card is unplayable. Alice clues three red to Cathy, including her slot 1; there is no non-play-hinted playable card in anyone’s hand but Cathy, so Cathy knows the play hints are for her. Cathy would play them from left to right. Immediately after Alice, Bob clues the left-most one as a 5 (possibly touching another 5); it is a fix clue, so no one interprets it as a play hint for them. Cathy would then play the middle red (and place r1), then the right-most red (and play r2), then stop there. 
  * In this case, if Bob did not know that his slot 1 card is unplayable, he should attempt to play it. Doing so will tell Cathy that her slot 1 card is unplayable (she will already know it by looking at Bob’s hand).
 
-?? Allow other fix moves ??
-?? It is not a good idea to allow "stomping" on a clue to be a fix clue, since it could be interpreted as a finesse. ??
-
-d- Player should trust their partners and NOT rush to give a fix clue - instead, they should consider whether they missed a previous play hint targetted at themselves. Only when there is no other reasonable possibility, and they are certain that a mistake is indeed about to be committed, should they "fix" the clue. 
+d- Player should trust their partners and NOT rush to give a fix clue - instead, they should consider whether they missed a previous play hint targetted at themselves. Only when there is no other reasonable possibility, and they are certain that a mistake is indeed about to be made, should they "fix" the clue. 
 
 e- What is important in determining whether a clue is a fix clue or not is whether the clue giver meant it as a fix clue or not. 
  * Normally (see 6d) everyone should be on the same page. But mistakes happen. 
  * Caution should be exerted in case of a potential erroneous fix clue. 
  * To avoid such ambiguous cases, clues that are not fix clues SHOULD NOT touch cards that are about to be played. 
+
+
+
+?? Allow other fix moves ??
+?? It is not a good idea to allow "stomping" on a clue to be a fix clue, since it could be interpreted as a finesse. ??
