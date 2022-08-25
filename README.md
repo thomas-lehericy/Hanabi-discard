@@ -155,15 +155,7 @@ We do not want to keep giving trash clues: this would exhaust the clue bank with
 
 a- Trash discards SHOULD be preferred to trash clues when the game is poor in playable cards. Most likely, in this situation, Alice has no known trash. 
 
-b- If Bob has known trash, he MUST discard it (in any order). This signals that he has nothing to do, but is not a play hint. 
- * If Bob does not do that but instead, discards a non-known trash card or gives a clue, it should be interpreted as a normal play hint. 
-
-c- Otherwise, if Bob gives a second trash clue, SPECIAL SITUATION. Suggestion:
- * If Cathy also has nothing to do, but even if she has known trash, she MUST give a clue that reveals new trash cards. The affected cards (unless filled-in as obviously valuable) MUST be considered known trash.
- * If Cathy has something to play or hint at, she does so. 
- * More generally, the first person to have nothing to do could give a trash clue. The clue receiver will know it is trash if there are no visible playable cards in this position. The clue receiver MUST NOT have received any new card since Alice and Bob gave their consecutive trash clues, or it MUST be clear to them that it is a trash clue, by revealing that at least one of the affected cards is trash (otherwise they MUST interpret it as a play hint on the clued cards). 
- * ?? How does it interact with "Letting someone else give a clue" ??
-
+b- ?? General procedure ??
 
 
 
