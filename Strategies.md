@@ -55,6 +55,8 @@ a- Giving a play-hint on a card SHOULD be left to the last player (before the ca
 
 Discussed in more details in the issue "Special trash". 
 
+This strategy builds upon "Letting someone else give a clue". 
+
 Ex: Cathy has exactly one non-play-hinted playable card, which is in slot x. Alice gives a trash clue. 
 * Bob then knows for certain he has a trash card in slot x. This card is now a known trash card for everyone but Cathy. Since Cathy does not know that Bob knows it is a trash card, she would interpret a discard of this card as a play clue on her. 
 * This trash card is now a "special trash", with target Cathy.
