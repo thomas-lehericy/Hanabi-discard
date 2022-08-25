@@ -148,3 +148,8 @@ c- The fixed player MUST erase all affected cards (including the one they are ab
 ?? It is not a good idea to allow "stomping" on a clue to be a fix clue, since it could be interpreted as a finesse. ??
 
 d- Player should trust their partners and NOT rush to give a fix clue - instead, they should consider whether they missed a previous play hint targetted at themselves. Only when there is no other reasonable possibility, and they are certain that a mistake is indeed about to be committed, should they "fix" the clue. 
+
+e- What is important in determining whether a clue is a fix clue or not is whether the clue giver meant it as a fix clue or not. 
+ * Normally (see 6d) everyone should be on the same page. But mistakes happen. 
+ * Caution should be exerted in case of a potential erroneous fix clue. 
+ * To avoid such ambiguous cases, clues that are not fix clues SHOULD NOT touch cards that are about to be played. 
