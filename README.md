@@ -142,7 +142,8 @@ b- Fix clues MUST NOT be taken as a play clue, but only as preventing a misplay.
 
 c- The fixed player MUST erase all affected cards (including the one they are about to play) from the play queue, and proceed with the next item. 
 
- * Ex: Fresh game. Alice clues three red to Cathy; there is no non-play-hinted playable card in anyone’s hand but Cathy, so Cathy knows the play hints are for her. Cathy would play them from left to right. Immediately after Alice, Bob clues the left-most one as a 5 (possibly touching another 5); it is a fix clue, so no one interprets it as a play hint for them. Cathy would then play the middle red (and place r1), then the right-most red (and play r2), then stop there. 
+ * Ex: No card is played. Bob knows that his slot 1 card is unplayable. Alice clues three red to Cathy, including her slot 1; there is no non-play-hinted playable card in anyone’s hand but Cathy, so Cathy knows the play hints are for her. Cathy would play them from left to right. Immediately after Alice, Bob clues the left-most one as a 5 (possibly touching another 5); it is a fix clue, so no one interprets it as a play hint for them. Cathy would then play the middle red (and place r1), then the right-most red (and play r2), then stop there. 
+ * In this case, if Bob did not know that his slot 1 card is unplayable, he should attempt to play it. Doing so will tell Cathy that her slot 1 card is unplayable (she will already know it by looking at Bob’s hand).
 
 ?? Allow other fix moves ??
 ?? It is not a good idea to allow "stomping" on a clue to be a fix clue, since it could be interpreted as a finesse. ??
