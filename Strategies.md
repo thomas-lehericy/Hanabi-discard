@@ -1,3 +1,22 @@
+# No clue in the bank
+
+a- If Alice has no play-hinted card and no remaining clue. She thus MUST discard. 
+ * If she has a known trash card, she MAY discard it. This will be interpreted as a trash discard, that does not give any information.
+ * If she has a known trash card, she MAY discard another, non-known trash card. This will be interpreted as a play hint.
+ * ?? If she has NO known trash card, she MUST discard her card that is most likely to be trash, or a card decided through a known procedure - other players should have had the opportunity to save said card beforehand. This MUST NOT be interpreted as a play hint. (The players should do their best to avoid this situation.)
+
+b- Players who anticipate this behavior and notice that it will lead to the discard of a CRITICAL card MUST prevent this situation from happening, by trash discards or other means. 
+
+
+# There are no playable cards
+
+We do not want to keep giving trash clues: this would exhaust the clue bank without bringing in any new card. 
+Trash discards SHOULD be preferred to trash clues when the game is poor in playable cards. 
+
+?? Consider situations where no trash discard can be safely given ??
+
+
+
 # Letting the hint tick
 
 a- Alice gives a play-hint in slot x. Bob and Cathy both have a playable card in slot x.
