@@ -49,7 +49,7 @@ a- Players will inform each other of which cards are playable through play hints
 
 b- When a player knows that at least a card in their hand is playable, they MUST play.
 
-c- When a player received multiple play hints, the play hints MUST be resolved in the order in which they were received.
+c- When a player received multiple play hints, the play hints MUST be resolved in the order in which they were received. (Unless it is ABSOLUTELY CLEAR that not doing so will not cause another player to play a not-yet-playable card.)
 
 d- When a player has a mix of play hints and known cards, known cards MUST be played first. 
  * This allow other players to clue subsequent cards with play hints.
