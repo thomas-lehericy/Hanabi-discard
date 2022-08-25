@@ -207,7 +207,7 @@ Ex: g3, p3, y2, b1 and r2 are placed. Alice play-hints slot x. Bob’s card in s
 - It is now Donald’s turn. He may have b4 (unplayable) or y4 (playable). If he had b4, Cathy would have known that she couldn’t make the card playable, and would thus have fix-clued him. His card is thus y4. Donald plays it. (In any case, if there is a possibility that the card is playable, Donald MUST play it.) 
 - Note that Bob HAS to play his finesse card, even though he can see that Cathy has the card that is ACTUALLY required for the finesse. Indeed, if Bob did not play, Cathy would NOT know that this was a finesse, and she would instead try to play her slot x card. 
 - If Cathy had played b2 instead, Donald still deduces that his card is y4, and he would see that y4 is not yet playable. He thus does not play it. 
-
+- If Bob had played g4 and Cathy had done nothing, Donald would have deduced that the finesse card had been made playable, and is thus Bob’s 5 and not his 4. (It should be clear to him anyway since he sees Bob’s card, and knows that it is playable.)
 
 b- Simple self-finesse: If all cards in slot x (besides Bob) are trash, then Bob knows that he is the only possible target of the finesse. He must proceed as above. 
 
