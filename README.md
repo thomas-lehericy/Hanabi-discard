@@ -136,9 +136,9 @@ d- Fix clues MAY be used whenever there is a reasonable suspicion that a player 
 ?? It is not a good idea to allow "stomping" on a clue to be a fix clue, since it could be interpreted as a finesse. ??
 
 
-# 8. What to do when stuck
+# 7. What to do when stuck
 
-# 8.1. No clue
+# No clue in the bank
 
 a- If Alice has no play-hinted card and no remaining clue. She thus MUST discard. 
  * If she has a known trash card, she MAY discard it. This will be interpreted as a trash discard, that does not give any information.
@@ -149,7 +149,7 @@ b- Players who anticipate this behavior and notice that it will lead to the disc
  * ?? In the most extreme case, fix clue ??
 
 
-# ?? 8.2. Alice gave a trash clue, and Bob has nothing to do
+# There are no playable cards
 
 We do not want to keep giving trash clues: this would exhaust the clue bank without bringing in any new card. 
 
@@ -158,6 +158,8 @@ a- Trash discards SHOULD be preferred to trash clues when the game is poor in pl
 b- ?? General procedure ??
 
 
+
+# 8. Strategies
 
 # [advanced] Letting someone else give a clue
 
@@ -180,8 +182,29 @@ Ex: Cathy has exactly one non-play-hinted playable card, which is in slot x. Ali
 * If Bob decides not to discard the card, the other players MAY play-hint Cathy’s slot x (to allow Bob to keep his special trash) or, if they decide that Bob’s daring is too much, they MAY decide to let Bob give the clue anyway. They can also trash-clue Bob’s special trash card. 
 
 
-# [advanced] Finesses
+# [advanced] Finesses and bluffs
 
-Finesses are tricky, since play hints will be interpreted as "there is a playable card in this slot". Every player up to the target of the finesse MUST thus know that their card in the affected slot is in fact not playable. I would advise against unless it is clear that no other interpretation is possible. 
+Note to H-group users: this is a poor man’s finesse, please look for better ones!
 
+Finesses are tricky, since play hints will be interpreted as "there is a playable card in this slot". The player immediately after the finesse-giver, up to the player who is supposed to play into the finesse (included), MUST thus know that their card in the affected slot is unplayable. Once someone plays into a finesse, the meaning of the play hint will be made clear and any accidental play avoided. 
+
+a- Simple finesse / bluff:
+- Alice gives a play clue on slot x, where there is at least one valuable but unplayable card. 
+- Bob’s card in slot x is known (by him) unplayable. 
+- No one else has a playable card in slot x. 
+- If Bob does nothing, the last person with a non-known-unplayable card will attempt to play it.
+- But Alice would not play-hint a truly unplayable card. This means there is a card that must be played that will resolve the situation and make at least one card playable.
+- Bob thus plays the card that is most likely to make one of the slot x cards playable (based on his clues, or if there are no compatible clues, his finesse position.)
+- This card may or may not actually allow a card to be played. In any case, the other players should take note that a finesse has occured, and as such, that at least one of them has a valuable but not-yet-playable card. 
+- If the newly placed card makes one of their card possibly playable (based on their clues), they MUST attempt to play it. (Finesse are to be considered before Bluffs.) This MAY trigger multiple bluffs (if a card is falsely playable, it means that someone has a playable card in a position to be played before the play-hinted card is played). 
+- Note that, by seeing Bob react to the finesse, the clue-receiver should acknowledge that he received a clue on an UNPLAYABLE card. If, at his turn, his card’s playability has not changed (based on the previous player’s reactions), he should not play it. If nothing tells him that the card is unplayable, he MUST attempt to play it. 
+
+Ex: g3, p3, y2, b1 and r2 are placed. Alice play-hints slot x. Bob’s card in slot x is clued 5, Cathy’s is trash, and Donald’s card is clued 4. The target of the finesse is either Bob or Donald. 
+- If Bob does nothing, Donald deduces that he has g4. But Bob plays his finesse card, which is r3. Donald then knows that he has neither g4 nor p4. 
+- Cathy then plays her finesse card, and places y3. Donald deduces that his card is not r3 - otherwise, Cathy wouldn’t have played. 
+- It is now Donald’s turn. He may have b4 (unplayable) or y4 (playable). If he had b4, Cathy would have known that she couldn’t make the card playable, and would thus have fix-clued him. His card is thus y4. Donald plays it. 
+- Note that Bob HAS to play his finesse card, even though he can see that Cathy has the card that is ACTUALLY required for the finesse. Indeed, if Bob did not play, Cathy would NOT know that this was a finesse, and she would instead try to play her slot x card. 
+
+
+b- Simple self-finesse: If all cards in slot x (besides Bob) are trash, then Bob knows that he is the only possible target of the finesse. He must proceed as above. 
 
