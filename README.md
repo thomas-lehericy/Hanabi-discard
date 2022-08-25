@@ -184,7 +184,7 @@ Ex: Cathy has exactly one non-play-hinted playable card, which is in slot x. Ali
 
 # [advanced] Finesses and bluffs
 
-Note to H-group users: this is a poor man’s finesse, please look for better ones!
+Note to H-group players: this is a poor man’s finesse, please look for better ones!
 
 Finesses are tricky, since play hints will be interpreted as "there is a playable card in this slot". The player immediately after the finesse-giver, up to the player who is supposed to play into the finesse (included), MUST thus know that their card in the affected slot is unplayable. Once someone plays into a finesse, the meaning of the play hint will be made clear and any accidental play avoided. 
 
