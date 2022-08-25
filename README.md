@@ -141,12 +141,6 @@ c- The fixed player MUST erase all affected cards (including the one they are ab
 
  * Ex: Fresh game. Alice clues three red to Cathy; there is no non-play-hinted playable card in anyone’s hand but Cathy, so Cathy knows the play hints are for her. Cathy would play them from left to right. Immediately after Alice, Bob clues the left-most one as a 5 (possibly touching another 5); it is a fix clue, so no one interprets it as a play hint for them. Cathy would then play the middle red (and place r1), then the right-most red (and play r2), then stop there. 
 
-d- Fix clues MAY be used whenever there is a reasonable suspicion that a player was play-hinted and the play-hints will resolve in the wrong order.
- * Ex: Fresh game. Alice clues Donald’s slots 3 and 4. Bob has y1 in slot 3. Cathy has g2 in slot 3 and g1 in slot 4. 
- * Cathy interprets this as a play hint on Bob’s slot 3 and her slot 4. 
- * Bob interprets this as a play hint on Cathy’s slot 3 and 4. But from his perspective, Cathy will try to play g2 first. He thus gives a fix clue, e.g. "2" clue to Cathy. This is a clue that affects at least one of the slots that, from his perspective, Cathy will try to play - in such a way that, if Cathy removes the affected slots from her play queue, then she will play a playable card. It does not have to make the card visibly unplayable - affecting the card is enough. 
- * ?? Interpret this situation and how it can resolve, and whether there are ambiguities. ??
-
 ?? Allow other fix moves ??
 ?? It is not a good idea to allow "stomping" on a clue to be a fix clue, since it could be interpreted as a finesse. ??
 
