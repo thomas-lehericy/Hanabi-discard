@@ -199,6 +199,8 @@ a- Simple finesse / bluff:
 - If the newly placed card makes one of their card possibly playable (based on their clues), they MUST attempt to play it. (Finesse are to be considered before Bluffs.) This MAY trigger multiple bluffs (if a card is falsely playable, it means that someone has a playable card in a position to be played before the play-hinted card is played). 
 - Note that, by seeing Bob react to the finesse, the clue-receiver should acknowledge that he received a clue on a, at this time, UNPLAYABLE card. If, at his turn, his card’s playability has not changed (based on the previous player’s reactions), he should not play it. If nothing tells him that the card is unplayable, he MUST attempt to play it. 
 
+Finesses take precedence over EVERY OTHER ACTION (including plays), otherwise bad information may be transmitted. It is the finesse-starter’s responsibility to ensure that this will not harm the team.  
+
 Ex: g3, p3, y2, b1 and r2 are placed. Alice play-hints slot x. Bob’s card in slot x is clued 5, Cathy’s is trash, and Donald’s card is clued 4. The target of the finesse is either Bob or Donald. 
 - If Bob does nothing, Donald deduces that he has g4. But Bob plays his finesse card, which is r3. Donald then knows that he has neither g4 nor p4. 
 - Cathy then plays her finesse card, and places y3. Donald deduces that his card is not r3 - otherwise, Cathy wouldn’t have played. 
