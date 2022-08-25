@@ -149,7 +149,7 @@ b- Players who anticipate this behavior and notice that it will lead to the disc
  * ?? In the most extreme case, fix clue ??
 
 
-# 8.2. Alice gave a trash clue, and Bob has nothing to do
+# ?? 8.2. Alice gave a trash clue, and Bob has nothing to do
 
 We do not want to keep giving trash clues: this would exhaust the clue bank without bringing in any new card. 
 
